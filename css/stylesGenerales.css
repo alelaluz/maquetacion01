@@ -1,0 +1,19 @@
+/*ESTILOS GENERALES*/
+
+/*pára todos los elementos de la web  , el margin sea 0 y el padding sea 0 , para que se reseteen y 
+los margen sean 0 */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*al body le ponemos un patron que tiene rayitas que casi ni se ven. */
+body{
+    background:url(img/pattern.png)
+}
+
+/*el wrap tambien va a tener estilos  generales */
+.wrap{
+    /*va a tener un ancho concreto , variable  al ancho de  la pantalla pero en escritorio va a ser de 1200*/
+    width: 1250px;
+    margin: 0px auto; /*para centrar el elemento*/
+}

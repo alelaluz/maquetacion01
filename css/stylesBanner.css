@@ -1,0 +1,24 @@
+/*ESTILOS DEL BANNER*/
+
+#banner{
+    width: 95,5%;/*pongo 95% para que quede un poco mas simetrico*/
+    height: 100px;
+    border: 10px solid white;
+    box-shadow: 0px 0px 2px gray;
+    background:url("img/bakbaner.png");
+    background-position: -260px -120px;
+    margin: 20px auto;
+}
+
+#banner h1{
+    display: block;
+    width: 850px;/*luego lo pasaremos a % para que  pase  a  renponsive*/
+    font-family: "bebasneue";
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    letter-spacing: 2px;
+    margin: 27px auto; /*le pongo auto para que  se  centre*/
+    font-weight: normal;
+    text-shadow: 2px 2px 1px black;
+}
